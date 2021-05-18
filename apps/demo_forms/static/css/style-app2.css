@@ -1,0 +1,16 @@
+.errorlist{
+    color: blue;
+      }
+
+
+label {
+  width: 100px;
+  display: inline-block;
+  }      
+
+
+.header-app2 {
+    background-color: rgba(255, 0, 111, 0.379);
+    margin-top: 0;
+    padding: 10px 10px 10px 10px;
+  }  

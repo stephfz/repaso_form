@@ -1,0 +1,29 @@
+{% load static %}
+
+
+<head>
+    <link rel="stylesheet" href="{% static 'css/style-app2.css' %}">
+</head>
+
+<div class ="header-app2">
+    <h1> <a href= "/">Home App Two</a></h1>
+
+</div>
+
+<div>
+    <a href="{% url 'home' %}">Home</a>
+</div>
+
+<body>
+
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+
+
+</body>

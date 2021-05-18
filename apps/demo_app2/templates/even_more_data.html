@@ -1,0 +1,10 @@
+{% block content%}
+<h3> Un registro Mas</h3>
+
+<form action = 'none' id = 'formRegister' method = 'post'>
+    {% csrf_token %}
+    <p>Algo : <input type='text' name='genre'></p>
+    <button type='submit'>Registra</button>
+</form>
+
+{%endblock%}
